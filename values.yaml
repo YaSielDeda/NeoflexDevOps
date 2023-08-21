@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 appName: java-tomcat
-replicaCount: 1
+replicaCount: 3
 
 image:
   repository: sadfasdad54684684/neoflex
