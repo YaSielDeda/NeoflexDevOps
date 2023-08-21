@@ -1,0 +1,19 @@
+# Default values for test-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+appName: java-tomcat
+replicaCount: 1
+
+image:
+  repository: sadfasdad54684684/neoflex
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: java-tomcat
+
+service:
+  name: java-webapp-service
+  type: NodePort
+  ports:
+    name: http
+    port: 8080
+    targetPort: 8080
